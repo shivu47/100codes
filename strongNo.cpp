@@ -2,7 +2,7 @@
 // digits of the numbers is equal to the number itself.
 
 // For Example: 145 
-// 145 = 1! x 4! x 5! =  145
+// 145 = 1! + 4! + 5! =  145
 
 #include<bits/stdc++.h>
 using namespace std;

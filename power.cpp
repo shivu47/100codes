@@ -1,25 +1,25 @@
 // c++ program to the Power of a number
 
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-int n;
-cout<<"enter no"<<endl;
-cin>>n;
-int exp;
-cout<<"enter exponent";
-cin>>exp;
-int res=1;
-for (int i = 1; i <= exp; i++)  //it handle only positive number
-{
-    res = res * n;
-}
-cout<<res;
-return 0;
-};
+// #include<bits/stdc++.h>
+// using namespace std;
+// int main(){
+// int n;
+// cout<<"enter no"<<endl;
+// cin>>n;
+// int exp;
+// cout<<"enter exponent";
+// cin>>exp;
+// int res=1;
+// for (int i = 1; i <= exp; i++)  //it handle only positive number
+// {
+//     res = res * n;
+// }
+// cout<<res;
+// return 0;
+// };
 
 //METHOD----->2
-/* Handling Postive and Negative number
+//Handling Postive and Negative number
 
 #include<iostream>
 using namespace std;
@@ -53,4 +53,3 @@ int main()
     
     return 0;
 }
-*/
